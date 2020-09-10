@@ -9,12 +9,12 @@ const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
     return (
         <div className='header'>
-            <img src={logo} alt="header-img"/>
-            <nav>
+            <Link to='/'><img src={logo} alt="header-img" />
+            </Link>            <nav>
                 <Link to="/shop" className="text-decoration-none text-white">Shop</Link>
                 <Link to="/review" className="text-decoration-none text-white">Order Review</Link>
                 <Link to="/inventory" className="text-decoration-none text-white">Manage Inventory</Link>
-                <button className="btn" onClick={() =>setLoggedInUser({})}>Sign Out</button>
+                <button className="btn" onClick={() => setLoggedInUser({})}>Sign Out</button>
             </nav>
         </div>
     );

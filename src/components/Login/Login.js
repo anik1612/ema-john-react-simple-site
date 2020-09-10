@@ -88,20 +88,20 @@ function Login() {
 
 
   return (
-    <div style={{ textAlign: 'center', border: '1px solid lightgrey', marginTop: '100px'}}>
+    <div style={{ textAlign: 'center', border: '1px solid lightgrey', marginTop: '100px' }}>
       <h1>Our own Authentication</h1>
       <input type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" id="" />
       <label htmlFor="newUser">New User Sign up</label>
       <form onSubmit={handleSubmit}>
         {newUser && <input name="name" type="text" onBlur={handleBlur} placeholder="Your name" />}
         <br />
-        <input style={{marginBottom:'10px'}} type="text" name="email" onBlur={handleBlur} placeholder="Your Email address" required />
+        <input style={{ marginBottom: '10px' }} type="text" name="email" onBlur={handleBlur} placeholder="Your Email address" required />
         <br />
         <input type="password" name="password" onBlur={handleBlur} placeholder="Your Password" required />
         <br />
         <input type="submit" className='btn' value={newUser ? 'Sign up' : 'Sign in'} />
       </form>
-      {user.isSignedIn ? <button className="btn" onClick={signOut}>Sign Out</button> :
+      { user.isSignedIn ? <button className="btn" onClick={signOut}>Sign Out</button> :
         <button className="btn" onClick={googleSignIn}>Sign In with Google</button>
       }
       <button className="btn" onClick={fbSignIn}>Sign in using Facebook</button>
