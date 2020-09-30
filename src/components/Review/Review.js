@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import { getDatabaseCart, removeFromDatabaseCart, processOrder } from '../../utilities/databaseManager';
-import fakeData from '../../fakeData';
+import { getDatabaseCart, removeFromDatabaseCart } from '../../utilities/databaseManager';
 import ReviewItem from '../ReviewItem/ReviewItem';
 import Cart from '../Cart/Cart';
 import happyImage from '../../images/giphy.gif'
@@ -11,7 +10,7 @@ import { useHistory } from 'react-router-dom';
 const Review = (props) => {
 
     const [cart, setCart] = useState([]);
-    const [orderPlaced, setOrderPlaced] = useState(false);
+    const [orderPlaced] = useState(false);
     const history = useHistory([]);
 
     const handleProceedCheckout = () => {
@@ -28,12 +27,16 @@ const Review = (props) => {
         //cart
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart);
-        const cartProducts = productKeys.map(key => {
-            const product = fakeData.find(pd => pd.key === key);
-            product.quantity = savedCart[key];
-            return product;
-        });
-        setCart(cartProducts);
+
+        fetch('https://ema-john-as.herokuapp.com/productByKeys', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(productKeys)
+        })
+            .then(res => res.json())
+            .then(data => setCart(data))
     }, [])
 
     let thankYou;

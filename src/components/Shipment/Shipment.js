@@ -3,11 +3,29 @@ import { useForm } from 'react-hook-form';
 import './Shipment.css'
 import { useContext } from 'react';
 import { userContext } from '../../App';
+import { getDatabaseCart } from '../../utilities/databaseManager';
 
 const Shipment = () => {
     const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = data => console.log(data);
-    const [loggedInUser, setLoggedInUser] = useContext(userContext)
+    const [loggedInUser] = useContext(userContext);
+    
+    const onSubmit = data => {
+        const savedCart = getDatabaseCart();
+        const orderDetails = {...loggedInUser, products: savedCart, shipment: data, orderTime: new Date()}
+
+        fetch('https://ema-john-as.herokuapp.com/addOrder', {
+            
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json",
+            }, 
+            body: JSON.stringify(orderDetails)
+        })
+        .then(res => res.json())
+        .then(data => {
+            alert('Your order placed successfully')
+        })
+    }
     console.log(watch("example")); // watch input value by passing the name of it
 
     return (

@@ -68,6 +68,7 @@ function Login() {
       setUser(newUserInfo);
     }
   }
+  
   const handleSubmit = (e) => {
     if (newUser && user.email && user.password) {
       createUserWithEmailAndPassword(user.name, user.email, user.password)
@@ -84,7 +85,6 @@ function Login() {
     }
     e.preventDefault();
   }
-
 
 
   return (
