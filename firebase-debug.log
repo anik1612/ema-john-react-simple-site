@@ -1,0 +1,476 @@
+[debug] [2020-10-27T07:24:39.773Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:24:39.776Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2020-10-27T07:24:39.776Z] CLI Version:   8.13.1
+[debug] [2020-10-27T07:24:39.776Z] Platform:      win32
+[debug] [2020-10-27T07:24:39.776Z] Node Version:  v12.18.3
+[debug] [2020-10-27T07:24:39.777Z] Time:          Tue Oct 27 2020 15:24:39 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T07:24:39.778Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:24:39.778Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=620610311&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T07:24:46.715Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gGAbUNDm7XEKp_HQb7_6JtydVGEdcDxDKSK8npvEjD9KGMRhELvgrFdiBlENK5lr_djlKVbtXOtPlzXBL6-qGI","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T07:25:07.767Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T07:26:41.920Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:26:41.922Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T07:26:41.923Z] CLI Version:   8.13.1
+[debug] [2020-10-27T07:26:41.923Z] Platform:      win32
+[debug] [2020-10-27T07:26:41.923Z] Node Version:  v12.18.3
+[debug] [2020-10-27T07:26:41.924Z] Time:          Tue Oct 27 2020 15:26:41 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T07:26:41.924Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:26:41.924Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=305918167&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T07:26:54.993Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrhKw5ipH9XpBERAB5L-LgU-w7hSCvNtHEuy9k6oyN4WMuDuqixOV0rv3jK6OOs3aw","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T07:27:16.064Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T07:39:13.333Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:39:13.336Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T07:39:13.336Z] CLI Version:   8.13.1
+[debug] [2020-10-27T07:39:13.337Z] Platform:      win32
+[debug] [2020-10-27T07:39:13.337Z] Node Version:  v12.18.3
+[debug] [2020-10-27T07:39:13.338Z] Time:          Tue Oct 27 2020 15:39:13 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T07:39:13.338Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:39:13.338Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=911729438&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T07:39:45.279Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gGf6opQgOteEGTRi-9KvIA8e8cL7mTTD6Tk8aDNhtIb5uPD_eqj6BacHIII0M4XsgSD2dfrgJfwgy9PgCptgqA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T07:40:06.402Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 216.58.200.45:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T07:42:07.478Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:42:07.480Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T07:42:07.480Z] CLI Version:   8.13.1
+[debug] [2020-10-27T07:42:07.480Z] Platform:      win32
+[debug] [2020-10-27T07:42:07.480Z] Node Version:  v12.18.3
+[debug] [2020-10-27T07:42:07.482Z] Time:          Tue Oct 27 2020 15:42:07 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T07:42:07.482Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T07:42:07.482Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=821215038&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T07:42:17.514Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gHoGdea82YvXoMxBUJfIOXYkMXovY-EoXS2AlToqG8hkd2mIXz9q8vkN58HT4Oq-aGr5Cf4I3c-oGoZXNiLWEc","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T07:42:38.565Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 216.58.200.45:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T09:56:29.227Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T09:56:29.229Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --debug
+[debug] [2020-10-27T09:56:29.230Z] CLI Version:   8.13.1
+[debug] [2020-10-27T09:56:29.230Z] Platform:      win32
+[debug] [2020-10-27T09:56:29.230Z] Node Version:  v12.18.3
+[debug] [2020-10-27T09:56:29.237Z] Time:          Tue Oct 27 2020 17:56:29 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T09:56:29.237Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T09:56:29.237Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=56315144&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T09:58:29.148Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gEH3Tt8HKT23kvO5S2ulh-pePBN1p4gLW_hA1S27aBjmSSuv06g5tbgNQ8YV7C6se9dR6s-pobvYR03AS6z2TI","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T09:58:50.281Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T10:04:33.772Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T10:04:33.775Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T10:04:33.775Z] CLI Version:   8.13.1
+[debug] [2020-10-27T10:04:33.775Z] Platform:      win32
+[debug] [2020-10-27T10:04:33.775Z] Node Version:  v12.18.3
+[debug] [2020-10-27T10:04:33.782Z] Time:          Tue Oct 27 2020 18:04:33 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T10:04:33.783Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T10:04:33.783Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1055348608&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T10:04:44.043Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gEPOma4CrfKDs3_M_bJL88TfSd2of-lD1MfwbikygDiFLtNdwtsGTyazf1AVrgba5byi_8K6tOZW31amdqfmlc","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T10:05:05.105Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.24.13:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T10:23:43.941Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T10:23:43.944Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T10:23:43.944Z] CLI Version:   8.13.1
+[debug] [2020-10-27T10:23:43.944Z] Platform:      win32
+[debug] [2020-10-27T10:23:43.944Z] Node Version:  v12.18.3
+[debug] [2020-10-27T10:23:43.953Z] Time:          Tue Oct 27 2020 18:23:43 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T10:23:43.953Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T10:23:43.953Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1035495470&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:06:35.686Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:06:35.688Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:06:35.688Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:06:35.689Z] Platform:      win32
+[debug] [2020-10-27T11:06:35.689Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:06:35.690Z] Time:          Tue Oct 27 2020 19:06:35 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:06:35.690Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:06:35.690Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1065441889&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:06:49.911Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gFVS0pRMggR0GHDgEfjSCmZt4D7u5voL21HQJjZj4hs51bfL5fSnQGfuXcJKkKHp9J9_AWMpu4GR6szMstJwXg","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T11:07:10.986Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T11:08:25.032Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:08:25.034Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --interactive
+[debug] [2020-10-27T11:08:25.034Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:08:25.034Z] Platform:      win32
+[debug] [2020-10-27T11:08:25.034Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:08:25.035Z] Time:          Tue Oct 27 2020 19:08:25 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:08:25.036Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:08:25.036Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=996288824&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:08:37.178Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrjEvT99Scno12o4526mheyb64tmYwvdAPbkW6bK4zxQzmcUWWikvNHxSCfXS03UKg","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T11:08:58.249Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T11:19:37.959Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:19:37.962Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:19:37.962Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:19:37.962Z] Platform:      win32
+[debug] [2020-10-27T11:19:37.962Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:19:37.963Z] Time:          Tue Oct 27 2020 19:19:37 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:19:37.963Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:19:37.963Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=371958515&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:41:14.862Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:41:14.865Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:41:14.865Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:41:14.865Z] Platform:      win32
+[debug] [2020-10-27T11:41:14.865Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:41:14.866Z] Time:          Tue Oct 27 2020 19:41:14 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:41:14.866Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:41:14.867Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=305524941&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:41:58.111Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:41:58.114Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:41:58.114Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:41:58.114Z] Platform:      win32
+[debug] [2020-10-27T11:41:58.114Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:41:58.116Z] Time:          Tue Oct 27 2020 19:41:58 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:41:58.116Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:41:58.116Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=913920596&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:44:06.907Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:44:06.909Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:44:06.910Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:44:06.910Z] Platform:      win32
+[debug] [2020-10-27T11:44:06.910Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:44:06.911Z] Time:          Tue Oct 27 2020 19:44:06 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:44:06.911Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:44:06.911Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=985529866&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:44:15.002Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gEXSgA1HUxOMIaapJGGy25J-M5ezIKacea_jrWx3u9SiZrWKyxXyq1WSVaQuTQxpuqnkcwTqgo9PDvBmkV_7tI","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T11:44:36.079Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T11:46:04.870Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:46:04.874Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:46:04.874Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:46:04.874Z] Platform:      win32
+[debug] [2020-10-27T11:46:04.874Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:46:04.875Z] Time:          Tue Oct 27 2020 19:46:04 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:46:04.876Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:46:04.876Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=578365780&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:46:18.019Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gHP_qjj7_qP8DjfNn9J_TYkY5-pRSCA9MlndK6bcKh9Q-2dxORx3l33FFTLdkYeJzXP3_6qtbCqImraS5A2oHM","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T11:46:39.093Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T11:57:12.912Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:57:12.914Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T11:57:12.914Z] CLI Version:   8.13.1
+[debug] [2020-10-27T11:57:12.914Z] Platform:      win32
+[debug] [2020-10-27T11:57:12.915Z] Node Version:  v12.18.3
+[debug] [2020-10-27T11:57:12.916Z] Time:          Tue Oct 27 2020 19:57:12 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T11:57:12.916Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T11:57:12.916Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=241582657&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T11:57:43.624Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gF_LOLlDiFsVqovVFvvtCJ1QZ97FMKUe-RrR7Lb7OpOorlClbmVGhSg3Ua4LKEECah9wTNx_vKOBzerUIUYrto","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T11:58:04.714Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 216.58.200.45:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-27T12:06:49.253Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T12:06:49.255Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-27T12:06:49.256Z] CLI Version:   8.13.1
+[debug] [2020-10-27T12:06:49.256Z] Platform:      win32
+[debug] [2020-10-27T12:06:49.256Z] Node Version:  v12.18.3
+[debug] [2020-10-27T12:06:49.257Z] Time:          Tue Oct 27 2020 20:06:49 GMT+0800 (China Standard Time)
+[debug] [2020-10-27T12:06:49.257Z] ----------------------------------------------------------------------
+[debug] [2020-10-27T12:06:49.257Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=705598806&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-27T12:07:58.396Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/5gHh2sr96vxwCemJjvMMNYx6oth4SBwj--RJHAh_DuqYP5EgjQwhYhBcT4dOnTacEjsi13OWuLTVbYt2gBHjCf4","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-27T12:08:20.560Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-10-28T05:19:20.692Z] ----------------------------------------------------------------------
+[debug] [2020-10-28T05:19:20.695Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-10-28T05:19:20.696Z] CLI Version:   8.13.1
+[debug] [2020-10-28T05:19:20.696Z] Platform:      win32
+[debug] [2020-10-28T05:19:20.696Z] Node Version:  v12.18.3
+[debug] [2020-10-28T05:19:20.697Z] Time:          Wed Oct 28 2020 13:19:20 GMT+0800 (China Standard Time)
+[debug] [2020-10-28T05:19:20.697Z] ----------------------------------------------------------------------
+[debug] [2020-10-28T05:19:20.698Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1171062&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-28T05:19:31.767Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AfDhmrglDO1KNZxB12Rk1OngTF08mL1DwSYFM5fGlwf4XH8yDZOMIPfqT9mfM8n_pGj-rQ","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-10-28T05:19:52.911Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (C:\Users\aniks\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

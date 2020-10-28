@@ -16,15 +16,14 @@ import NotFound from './components/NotFound/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import Shipment from './components/Shipment/Shipment';
 import Login from './components/Login/Login';
-import { useState } from 'react';
+import useLocalStorageState from "use-local-storage-state";
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 
-
-export const userContext = createContext();
+export const userContext = createContext([]);
 
 function App() {
-  const [loggedInUser, setLoggedInUser] = useState({});
+  const [loggedInUser, setLoggedInUser] = useLocalStorageState('userInfo', []);
   return (
     <userContext.Provider value = {[loggedInUser, setLoggedInUser]}>
       <Router>
