@@ -4,7 +4,7 @@ A single page social task app where user can select available volunteer task and
 
 [Live Website](https://ema-john-simple-83889.web.app/) | [Live API Server](https://ema-john-as.herokuapp.com/)
 
-### Feautures
+### Features
 * A full-stack E-Commerce website where you can check your favorite products and their details. (Dummy Products)
 * Google sign in, FB sign in, Email & Password Sign in/Register. (all sign in method)
 * Product inventory where seller can add their product for showing it up and sell.
