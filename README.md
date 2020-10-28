@@ -1,6 +1,6 @@
 # Ema-John E-Commerce
 
-A single page social task app where user can select available volunteer task and register for free & admin can make a new volunteer task.
+A single page E-commerce website where user can explore new products and then he can buy something using credits card.
 
 [Live Website](https://ema-john-simple-83889.web.app/) | [Live API Server](https://ema-john-as.herokuapp.com/)
 
